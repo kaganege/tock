@@ -6,4 +6,6 @@
         "RUSTUP_TOOLCHAIN": "nightly-2024-07-08"
     },
     "rust-analyzer.check.allTargets": false,
+    "rust-analyzer.rustfmt.extraArgs": ["--config", "tab_spaces=4"],
+    "editor.tabSize": 4
 }

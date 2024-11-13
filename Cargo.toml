@@ -98,6 +98,7 @@ members = [
     "libraries/tock-cells",
     "libraries/tock-register-interface",
     "libraries/tickv",
+    "boards/wemos_lolin32_lite",
 ]
 exclude = ["tools/"]
 resolver = "2"

@@ -10,6 +10,7 @@ edition.workspace = true
 
 [dependencies]
 kernel = { path = "../../kernel" }
+rv32i = { path = "../../arch/rv32i" }
 
 [lints]
 workspace = true

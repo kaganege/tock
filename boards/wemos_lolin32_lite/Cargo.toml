@@ -1,0 +1,22 @@
+[package]
+name = "wemos_lolin32_lite"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+build = "../build.rs"
+
+[dependencies]
+components = { path = "../components" }
+rv32i = { path = "../../arch/rv32i" }
+kernel = { path = "../../kernel" }
+esp32 = { path = "../../chips/esp32" }
+
+capsules-core = { path = "../../capsules/core" }
+capsules-extra = { path = "../../capsules/extra" }
+capsules-system = { path = "../../capsules/system" }
+
+[build-dependencies]
+tock_build_scripts = { path = "../build_scripts" }
+
+[lints]
+workspace = true
